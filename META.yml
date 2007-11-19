@@ -1,0 +1,17 @@
+--- #YAML:1.0
+name:                Captcha-reCAPTCHA-Mailhide
+version:             0.92
+abstract:            A Perl implementation of the reCAPTCHA Mailhide API
+license:             perl
+generated_by:        ExtUtils::MakeMaker version 6.36_01
+distribution_type:   module
+requires:     
+    Crypt::Rijndael:               0
+    HTML::Tiny:                    0.904
+    MIME::Base64:                  0
+    Test::More:                    0
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
+    version: 1.2
+author:
+    - Andy Armstrong <andy@hexten.net>
